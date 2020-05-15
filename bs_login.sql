@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 16, 2020 at 12:36 AM
+-- Generation Time: May 16, 2020 at 01:21 AM
 -- Server version: 10.1.32-MariaDB
 -- PHP Version: 7.1.17
 
@@ -70,9 +70,8 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`no_ktp`, `name`, `email`, `image`, `password`, `role_id`, `is_active`, `date_created`) VALUES
-('1234567890101213', 'Bagas', 'bagasaci@gmail.com', 'default.jpg', '$2y$10$ECgNOqTiR8hnt8F8.7Sa/e6dU4ZWcP0RdVCeGhSgLopHJscjNkZKq', 2, 1, 1589556389),
-('3674010801990005', 'Ilham', 'ilham@gmail.com', 'default.jpg', '$2y$10$rfsQVFS0s6wCwn7noGM7WeBws2x/z06NNJye9Sz8HcNypVz35b.Ba', 2, 1, 1589556462),
-('3674010801990006', 'Bagas K', 'bagaskurniawan57@yahoo.com', 'default.jpg', '$2y$10$YghEoKDRuYRW51r2nyISM.0D9Es2zEITzgsPWjeGcuoI44XVRDcEa', 2, 1, 1589556625);
+('1234567890101213', 'Bagas', 'bagasaci@gmail.com', 'default.jpg', '$2y$10$ECgNOqTiR8hnt8F8.7Sa/e6dU4ZWcP0RdVCeGhSgLopHJscjNkZKq', 1, 1, 1589556389),
+('3674010801990005', 'Ilham', 'ilham@gmail.com', 'default.jpg', '$2y$10$rfsQVFS0s6wCwn7noGM7WeBws2x/z06NNJye9Sz8HcNypVz35b.Ba', 2, 1, 1589556462);
 
 -- --------------------------------------------------------
 
